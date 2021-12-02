@@ -10,7 +10,12 @@
    $message .= 'paysorigine : ' .  $_POST ["paysorigine"];
    $message .= 'conditions checked : '  . $_POST ["conditionschecked"]. PHP_EOL ;
   echo $message;
- }
+  mail( "ozeliurs@gmail.com", "message", $message);
+  echo "le mail a été envoyé !!!";
+  ?> 
+  <a href= "td2.php"> Revenir en arrière </a>
+<?php 
+}
  else
  {
  echo '<br/><strong>Bouton non géré !</strong><br/>';

@@ -44,7 +44,6 @@ include 'utils.inc.php' ;
 <option value="Wakanda">Wakanda</option>
 </select>
 <br>
-
 <div>
     <input type="checkbox" id = "conditions checked" 
     name = "conditionschecked" value = "conditionschecked" >
